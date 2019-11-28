@@ -64,5 +64,5 @@ Wendy Chan - John Hentrich - John Kuchmek<br/>
 <br/>
 <br/>
  <p align="center">
- <img src="https://onlinelearning.seas.upenn.edu/wp-content/uploads/2017/08/penn_logo.png"
+ <img src="https://upenn.imodules.com/s/1587/images/gid2/editor/eng/pennengineeringlogo.jpg"
          </p>
