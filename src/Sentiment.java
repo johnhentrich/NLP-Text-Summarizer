@@ -124,24 +124,5 @@ public class Sentiment {
 		} else
 			return "error";
 	}
-
-	public static void main(String[] args) {
-
-		String text = "The sentiment analyzer works ok! Good! Great!";
-		Sentiment sent = new Sentiment();
-		System.out.println(sent.scores(text));
-		System.out.println(sent.interpret(sent.avgSentimentNum(sent.scores(text))));
-		System.out.println(sent.avgSentimentNum(sent.scores(text)));
-		ArrayList<Integer> test = new ArrayList<Integer>(Arrays.asList(1, 2, 10));
-		LinkedHashMap<String, Integer> test2 = new LinkedHashMap<>();
-		test2.put("test awful bad really bad!", 2);
-		test2.put("test awful bad bad!", 1);
-		test2.put("test bad ok bad!", 3);
-		System.out.println(test2);
-		System.out.println(sent.stringify(test2));
-		System.out.println(sent.weight(test2));
-		System.out.println(sent.weightedAvgSentimentNum(sent.scores(text), test));
-		System.out.println(sent.interpret(sent.weightedAvgSentimentNum(sent.scores(sent.stringify(test2)), sent.weight(test2))));
-	}
 	
 }
